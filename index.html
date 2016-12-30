@@ -7,6 +7,11 @@
   <link rel="icon" type="image/png" href="favicon.png">
 
   <style>
+  @font-face {
+  font-family: 'Braille';
+  src: url('braille.ttf');
+}
+
     body {
       background-color: white;
       margin: 0;
@@ -31,6 +36,13 @@
       font-weight: 300;
       width: 500px;
   margin: 70px auto 0 auto;
+}
+
+.logo:hover {
+  font-family: "Braille";
+  font-size: 56px;
+  padding: 30px 20px 28px 20px;
+   cursor: none;
 }
 
 p {
@@ -66,9 +78,10 @@ p {
 </head>
 <body>
   <div id="particles-js" style="height: 2000px;"></div>
-  <div class="black"><h1 class="logo">Dark <i>:</i> <b>Room</b></h1>
-  <p>coming soon to Birmingham</p>
-</div>
+  <div class="black">
+    <h1 class="logo">Dark <i>:</i> <b>Room</b></h1>
+    <p>coming soon to Birmingham</p>
+  </div>
 
 
 
